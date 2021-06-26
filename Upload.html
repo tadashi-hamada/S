@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<style>
+    #a {
+    font-family: Arial, Helvetica, sans-serif;
+     background-size: cover;
+    position: absolute;
+    left: 500px;top: 80px;}
+    
+    
+ 
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.container{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+</style>
+
+</head>
+<body  style="background-color: rgb(12, 14, 14);">
+    <div id="a">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <!-- Brand/logo -->
+            <a class="navbar-brand" href="index.html">SUDLife</a>
+            
+            <!-- Links -->
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="personal.html">Personal Details</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Health.html">Health Details</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Payout.html">Payout Details</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Upload.html">Upload Documents</a>
+              </li>
+            </ul>
+          </nav>
+        
+<div class="container">
+
+  <form action="index.html">
+   
+    <!-- Propeller File Input Inverse -->
+    
+<div class="card pmd-card bg-dark text-white">
+    <div class="card-body"> 
+        <label for="nname">Upload Pan Card</label>
+        <div class="custom-file pmd-custom-file">
+            <input type="file" class="custom-file-input" id="customFile">
+            <label class="custom-file-label" for="customFile">Choose file</label>
+        </div>
+    </div>
+</div>
+<br />
+<!-- Propeller Outline File Input Inverse -->
+
+<div class="card pmd-card bg-dark text-white">
+    <div class="card-body"> 
+        <label for="nname">Upload DL Card</label>
+        <div class="form-group">
+            <div class="custom-file pmd-custom-file-outline">
+                <input type="file" class="custom-file-input" id="inverse_customOutlineFile">
+                <label class="custom-file-label" for="inverse_customOutlineFile">Choose file</label>
+            </div>
+        </div>
+    </div>
+</div>
+<br/>
+<!-- Propeller Filled File Input Inverse -->
+
+<div class="card pmd-card bg-dark text-white">
+    <div class="card-body"> 
+        <!-- File Input -->
+        <label for="nname">Upload Adhaar Card</label>
+        <div class="form-group">
+            <div class="custom-file pmd-custom-file-filled">
+                <input type="file" class="custom-file-input" id="inverse_customfilledFile1">
+                <label class="custom-file-label" for="inverse_customfilledFile1">Choose file</label>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br/>
+<div class="card pmd-card bg-dark text-white">
+    <div class="card-body"> 
+        <!-- File Input -->
+        <label for="nname">Upload Passport</label>
+        <div class="form-group">
+            <div class="custom-file pmd-custom-file-filled">
+                <input type="file" class="custom-file-input" id="inverse_customfilledFile2">
+                <label class="custom-file-label" for="inverse_customfilledFile2">Choose file</label>
+            </div>
+        </div>
+    </div>
+</div>
+<br/>
+<div class="card pmd-card bg-dark text-white">
+    <div class="card-body"> 
+        <!-- File Input -->
+        <label for="nname">Capture/Upload Face Image</label>
+        <div class="form-group">
+            <div class="custom-file pmd-custom-file-filled">
+                <input type="file" class="custom-file-input" id="inverse_customfilledFile3">
+                <label class="custom-file-label" for="inverse_customfilledFile3">Choose file</label>
+            </div>
+        </div>
+    </div>
+</div>
+<br/>
+    <button type="submit" class="btn btn-dark">Submit</button>
+  </form>
+</div>
+</div>
+
+</body>
+</html>
+

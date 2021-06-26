@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<style>
+   .main{
+ 	padding: 40px 0;
+}
+.main input,
+.main input::-webkit-input-placeholder {
+    font-size: 11px;
+    padding-top: 3px;
+}
+.main-center{
+ 	margin-top: 30px;
+ 	margin: 0 auto;
+ 	max-width: 400px;
+    padding: 10px 40px;
+	background:#009edf;
+	    color: #FFF;
+    text-shadow: none;
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+
+}
+span.input-group-addon i {
+    color: #009edf;
+    font-size: 17px;
+}
+
+</style>
+<!------ Include the above in your HEAD tag ---------->
+</head>
+<body style="background-color: rgb(12, 14, 14);">
+
+      <div class="container">
+            <div class="main">
+               
+               <div class="main-center">
+               
+                  <h5 >Insurance Plan Calculator</h5>
+               
+                  <form action="personal.html" class="" method="post" >
+
+                     <div class="form-group">
+                        <label for="gender">I identify as</label><br/>
+                        
+                        <div class="form-check-inline">
+                           <label class="form-check-label">
+                             <input type="radio" class="form-check-input" name="optradio">Male
+                           </label>
+                         </div>
+                         <div class="form-check-inline">
+                           <label class="form-check-label">
+                             <input type="radio" class="form-check-input" name="optradio">Female
+                           </label>
+                         </div>
+                         <div class="form-check-inline disabled">
+                           <label class="form-check-label">
+                             <input type="radio" class="form-check-input" name="optradio" >Transgender
+                           </label>
+                         </div>
+                         </div> 
+                         <div class="form-group">
+                         <label for="gender">I Consume tobacco</label><br/>
+                        
+                         <div class="form-check-inline">
+                            <label class="form-check-label">
+                              <input type="radio" class="form-check-input" name="tobacco">Yes
+                            </label>
+                          </div>
+                          <div class="form-check-inline">
+                            <label class="form-check-label">
+                              <input type="radio" class="form-check-input" name="tobacco">No
+                            </label>
+                          </div>
+                          
+                          </div>
+                     
+                     <div class="form-group">
+                        <label for="name">Your Name</label>
+                           <div class="input-group">
+                              <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+               <input type="text" class="form-control" name="name" id="name"  placeholder="Enter your Name"/>
+                        </div>
+                     </div>
+                     
+                     <div class="form-group">
+                        <label for="date">Enter Date of Birth</label>
+                           <div class="input-group">
+                              <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                              <input type="date" class="form-control" name="date" placeholder="YYYY-MM-DD"/>
+                           </div>
+                     </div>
+                     <div class="form-group">
+                        <label for="sel1">Annual Income</label>
+                        <select class="form-control" id="sel1">
+                          <option>Upto 5 lacs</option>
+                          <option>5-10 lacs</option>
+                          <option>10-15 lacs</option>
+                          <option>more than 15 lacs</option>
+                        </select>
+                      </div> 
+                     <!--<div class="container-fluid">
+                        <div class="row">
+                           <div class="col-sm-6">-->
+                     <div class="form-group">
+                        <label for="email">Your Email</label>
+                           <div class="input-group">
+                              <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+                              <input type="email" class="form-control" name="email" placeholder="Enter your Email"/>
+                        </div>
+                     </div>
+                     
+                     <!--<div class="col-sm-6">-->
+                     <div class="form-group">
+                        <label for="phone_number">Phone Number</label>
+                           <div class="input-group">
+                              <span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
+                              <input type="text" class="form-control" name="phone_number" placeholder="Enter your Mobile Number"/>
+                           </div>
+                     </div>
+                     
+                     
+                     <div class="form-group form-check">
+                        <label class="form-check-label">
+                          <input class="form-check-input" type="checkbox" name="remember" required> I agree on blabla.
+                          <div class="valid-feedback">Valid.</div>
+                          <div class="invalid-feedback">Check this checkbox to continue.</div>
+                        </label>
+                      </div>
+                    
+               <button type="submit" class="btn btn-dark">Check Premium</button>
+                     
+                  </form>
+               </div><!--main-center"-->
+            </div><!--main-->
+         </div><!--container-->
+</body>
+</html>
